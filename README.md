@@ -31,7 +31,8 @@ The dataset provided in this repository has been processed to remove content tha
 Curated-Voice-Data/
 │
 ├── data/
-│   └── curated_voice_dataset_2025.csv   ← Main dataset
+│   ├── NFT_Communities_Dataset.csv    ← NFT community tweets
+│   └── DeFi_Communities_Dataset.csv  ← DeFi community tweets
 │
 └── README.md
 ```
@@ -40,10 +41,14 @@ Curated-Voice-Data/
 
 ## 📊 Dataset Description
 
-**File:** `data/curated_voice_dataset_2025.csv`  
 **Collection period:** January – December 2025  
 **Platform:** X (formerly Twitter)  
-**Communities:** NFT and DeFi discourse
+**Communities:** NFT and DeFi discourse (two separate files)
+
+| File | Community | Description |
+|---|---|---|
+| `NFT_Communities_Dataset.csv` | NFT | Tweets from NFT-related communities and discourse |
+| `DeFi_Communities_Dataset.csv` | DeFi | Tweets from DeFi-related communities and discourse |
 
 ### Column Dictionary
 
