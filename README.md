@@ -1,6 +1,6 @@
 # Curated Voice: Communicative Inequality and Platform Power in NFT and DeFi Communities on X
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://github.com/Joceelin/Curated-Voice-Data/blob/main/LICENSE)
 [![Data: X (Twitter)](https://img.shields.io/badge/Platform-X%20(Twitter)-black)](https://x.com)
 [![Period: 2025](https://img.shields.io/badge/Period-January–December%202025-blue)]()
 
@@ -97,7 +97,7 @@ Curated-Voice-Data/
 
 ## ⚖️ License
 
-The dataset in this repository is shared under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+The dataset in this repository is shared under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://github.com/Joceelin/Curated-Voice-Data/blob/main/LICENSE).
 
 You are free to share and adapt the material for any purpose, provided appropriate credit is given.
 
