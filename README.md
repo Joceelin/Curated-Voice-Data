@@ -19,7 +19,7 @@ The dataset supports analysis of communicative inequality and platform power dyn
 
 ## ⚠️ Data Availability Statement
 
-The data supporting the findings of this study were obtained from X (formerly Twitter) through a third-party data provider and **cannot be publicly shared in raw form** due to platform Terms of Service restrictions.
+The data supporting the findings of this study were obtained from X (formerly Twitter) through a third-party data provider.
 
 The dataset provided in this repository has been processed to remove content that may violate platform policies. The data collection procedure, sampling strategy, preprocessing steps, and analytical parameters are described in detail in the **Methods section** and **Supplementary Material** of the paper.
 
