@@ -19,9 +19,9 @@ The dataset supports analysis of communicative inequality and platform power dyn
 
 ## ⚠️ Data Availability Statement
 
-The data supporting the findings of this study were obtained from X (formerly Twitter) through a third-party data provider.
+The data supporting the findings of this study were obtained from X (formerly Twitter) through a third-party data provider and **cannot be publicly shared in raw form** due to platform Terms of Service restrictions.
 
-The dataset provided in this repository has been processed to remove content that may violate platform policies. The data collection procedure, sampling strategy, preprocessing steps, and analytical parameters are described in detail in the **Methods section** and **Supplementary Material** of the paper.
+The dataset provided in this repository has been processed to comply with platform policies and ethical standards. Specifically, only the tweet text (`full_text`) is retained, while usernames have been **anonymized through hashing** to protect user identities. All other metadata has been removed. The data collection procedure, sampling strategy, preprocessing steps, and analytical parameters are described in detail in the **Methods section** and **Supplementary Material** of the paper.
 
 ---
 
@@ -54,40 +54,10 @@ Curated-Voice-Data/
 
 | Column | Description |
 |---|---|
-| `tweet_id` | Unique identifier for each tweet |
-| `username` | Handle of the posting account |
-| `display_name` | Display name of the posting account |
+| `username` | Anonymized account identifier (hashed to protect user identity; original usernames are not recoverable) |
 | `full_text` | Full text content of the tweet |
-| `created_at` | Timestamp of the tweet (UTC) |
-| `lang` | Detected language of the tweet |
-| `source` | Client/application used to post |
-| `tweet_url` | Direct URL to the tweet |
-| `is_quote` | Whether the tweet is a quote tweet (`True`/`False`) |
-| `hashtags` | Hashtags included in the tweet |
-| `mentions` | User mentions included in the tweet |
-| `urls` | URLs included in the tweet |
-| `media` | Media attachments (if any) |
-| `view_count` | Number of times the tweet was viewed |
-| `favorite_count` | Number of likes |
-| `retweet_count` | Number of retweets |
-| `reply_count` | Number of replies |
-| `quote_count` | Number of times the tweet was quoted |
-| `quoted_tweet_id` | ID of the quoted tweet (if applicable) |
-| `quoted_username` | Username of the quoted tweet's author |
-| `quoted_text` | Text content of the quoted tweet |
-| `quoted_url` | URL of the quoted tweet |
-| `in_reply_to_status_id` | ID of the tweet being replied to |
-| `in_reply_to_user_id` | User ID of the account being replied to |
-| `in_reply_to_screen_name` | Screen name of the account being replied to |
-| `in_reply_to_url` | URL of the tweet being replied to |
-| `user_id` | Unique identifier of the posting user |
-| `verified` | Whether the account is verified |
-| `user_location` | Self-reported location of the account |
-| `user_description` | Bio/description of the account |
-| `user_created_at` | Date the account was created |
-| `user_followers_count` | Number of followers at time of collection |
-| `user_following_count` | Number of accounts followed at time of collection |
-| `user_statuses_count` | Total number of tweets posted by the account |
+
+> **Note on anonymization:** Usernames have been irreversibly hashed using a one-way hashing method prior to publication. This anonymization was applied to comply with X's Terms of Service and to protect the privacy of platform users.
 
 ---
 
