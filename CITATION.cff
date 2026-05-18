@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this dataset, replication code, or framework, please cite it as below."
+authors:
+  - family-names: "Juono"
+    given-names: "Wynona Jocelin"
+  - family-names: "Ramadhani"
+    given-names: "Dian Puteri"
+  - family-names: "Alamsyah"
+    given-names: "Andry"
+title: "Code and annotated data for 'Curated Voice: Communicative Inequality and Platform Power in NFT and DeFi Communities on X'"
+version: 1.0.0
+date-released: 2026-05-18
+url: "https://github.com/Joceelin/Curated-Voice-Data"
