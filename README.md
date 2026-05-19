@@ -17,12 +17,6 @@ The repository is shared to ensure transparency, reproducibility, and verificati
 
 ---
 
-## ✒️ Citation
-
-If you use this dataset, the replication code, or the methodological framework in your research, please cite it as specified in the [CITATION.cff](CITATION.cff) file or using the following format:
-
-> Juono, W. J., Ramadhani, D. P., & Alamsyah, A. (2026). *Code and annotated data for "Curated Voice: Communicative Inequality and Platform Power in NFT and DeFi Communities on X"*. GitHub Repository. Available at: https://github.com/Joceelin/Curated-Voice-Data
-
 ---
 
 ## ⚠️ Data Availability Statement
