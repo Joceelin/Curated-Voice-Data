@@ -17,8 +17,6 @@ The repository is shared to ensure transparency, reproducibility, and verificati
 
 ---
 
----
-
 ## ⚠️ Data Availability Statement
 
 The data supporting the findings of this study were obtained from X (formerly Twitter) through a third-party data provider and **cannot be publicly shared in raw form** due to platform Terms of Service restrictions.
