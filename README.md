@@ -72,7 +72,7 @@ The accompanying Jupyter Notebook (`Shannon_Entropy_JSD.ipynb`) implements a mul
 Instead of relying on arbitrary statistical percentiles, this pipeline segregates the communication layers into **Central-Actor-Associated Discourse** and **Regular Actor Discourse** using an empirical structural break-point threshold. Central actors are defined strictly as the **top 3 accounts** ranked by **Total Weighted Degree** (combined incoming and outgoing interaction weights). 
 
 ### 2. Domain-Specific Text Preprocessing
-To prevent pervasive background terminology from dominating frequency distributions and obscuring thematic variations, the clean-up script filters out standard English stop words along with specific domain-level keywords: `crypto`, `blockchain`, `web3`, `defi`, `nft`, `opensea`, `ethereum`, `eth`, `btc`, and `bitcoin`.
+To prevent pervasive background terminology from dominating frequency distributions and obscuring thematic variations, the clean-up script filters out standard English stop words along with specific domain-level keywords: `crypto`, `blockchain`, `web3`, `defi`, `nft`, `opensea`.
 
 ### 3. Core Information-Theoretic Metrics
 * **Gini Coefficient:** Evaluates the degree of interaction inequality and structural concentration across the network.
