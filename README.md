@@ -66,7 +66,7 @@ Curated-Voice-Data/
 
 ## ⚙️ Analytical Framework & Pipeline Settings
 
-The accompanying Jupyter Notebook (`Shannon_Entropy_JSD.ipynb`) implements a multi-stage computational pipeline:
+The accompanying Jupyter Notebook (`Curated_Voice_Analysis_Pipeline.ipynb`) implements a multi-stage computational pipeline:
 
 ### 1. Actor Classification (Top-3 Empirical Break-Point Threshold)
 Instead of relying on arbitrary statistical percentiles, this pipeline segregates the communication layers into **Central-Actor-Associated Discourse** and **Regular Actor Discourse** using an empirical structural break-point threshold. Central actors are defined strictly as the **top 3 accounts** ranked by **Total Weighted Degree** (combined incoming and outgoing interaction weights). 
