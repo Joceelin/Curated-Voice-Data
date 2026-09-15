@@ -85,7 +85,7 @@ To prevent pervasive background terminology from dominating frequency distributi
 
 To replicate the text-based discourse diversity analysis using [Google Colab](https://colab.research.google.com/):
 
-1. **Upload Notebook:** Download `Shannon_Entropy_JSD.ipynb` from this repository and upload it into your Google Colab workspace.
+1. **Upload Notebook:** Download `Curated_Voice_Analysis_Pipeline.ipynb` from this repository and upload it into your Google Colab workspace.
 2. **Data Input Requirements:** When prompted by the execution script, upload your target communication and interaction files:
    * **Tweet Data CSV:** Must contain a user handle column (`username`) and the raw text body (`full_text`).
    * **Edgelist CSV:** Must map network structural ties using `source`, `target`, and `weight` columns.
